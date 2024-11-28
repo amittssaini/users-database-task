@@ -1,0 +1,41 @@
+/* Header.css */
+
+/* Styling for the Header container */
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px; /* Add padding for spacing */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    border-radius: 8px; /* Slight round corners */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+  }
+  
+  /* Styling for the header title */
+  .header-title {
+    color: #fff;
+    font-size: 2rem; /* Larger text */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft text shadow */
+    flex-grow: 1;
+  }
+  
+  /* Styling for the "Add User" button */
+  .add-user-btn {
+    margin-left: auto; /* Pushes the button to the right */
+    background-color: #fff;
+    color: #ff7e5f;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-user-btn:hover {
+    background-color: #feb47b; /* Lighter background on hover */
+    color: #fff;
+  }
+  
