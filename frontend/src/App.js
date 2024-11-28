@@ -10,7 +10,7 @@ import "./App.css"
 
 export const config = {
  // endpoint: 'http://localhost:8082/users',
- endpoint:'https://users-database-task.onrender.com/users'
+ endpoint:'https://users-database-task.onrender.com/users',
 };
 
 function App() {
