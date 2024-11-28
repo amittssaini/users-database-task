@@ -11,6 +11,7 @@ const User = () => {
         try {
             const result = await axios.get(`${config.endpoint}`);
             console.log(result.data);
+            console.log(config.endpoint)
             const data = result.data;
             setUserData(data);
         } catch (error) {
