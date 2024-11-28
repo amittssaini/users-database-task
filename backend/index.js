@@ -21,7 +21,7 @@ mongoose
 app.listen(PORT,()=>console.log(`Server is Connected at the port ${PORT}`))
 
 const corsOptions = {
-    origin: 'https://users-database-task.vercel.app/', 
+    origin: 'https://aquamarine-kheer-052bd9.netlify.app/', 
     methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify the allowed methods
   };
   
