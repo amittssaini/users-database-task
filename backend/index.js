@@ -20,15 +20,15 @@ mongoose
 
 app.listen(PORT,()=>console.log(`Server is Connected at the port ${PORT}`))
 
-const corsOptions = {
-    origin: 'https://aquamarine-kheer-052bd9.netlify.app/', 
-    methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify the allowed methods
-    Credential:true,
-    
-  };
+// const corsOptions = {
+//     origin: 'https://aquamarine-kheer-052bd9.netlify.app/', 
+//     methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify the allowed methods
+//     Credential:true,
+
+//   };
   
   // Use the CORS middleware with the options
-  app.use(cors(corsOptions));
+  app.use(cors());
 
 app.use(express.json());
 app.use('/users',userRouter);
