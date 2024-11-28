@@ -21,7 +21,7 @@ mongoose
 app.listen(PORT,()=>console.log(`Server is Connected at the port ${PORT}`))
 
 const corsOptions = {
-    origin: 'http://localhost:3000', // Replace with your frontend's URL
+    origin: 'https://users-database-task.vercel.app/', 
     methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify the allowed methods
   };
   
